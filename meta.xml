@@ -1,0 +1,13 @@
+<meta>
+    <info name="Editor Object Dumper" author="Luminaire" type="script" version="1.0.0" />
+
+    <script src="server_utils.lua" type="server" />
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+
+    <aclrequest>
+        <right name="general.ModifyOtherObjects" access="true" />
+        <right name="function.startResource" access="true" />
+        <right name="function.stopResource" access="true" />
+    </aclrequest>
+</meta>
